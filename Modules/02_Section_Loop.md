@@ -3,5 +3,8 @@ MODULE 2 — Secton Loop
       * Extract the exact text
       * Validate content length
       * Apply summary_level = "short" OR "detailed"
-          → short = 1–2 sentences
-          → detailed = 1 paragraph + 3–5 bullet points
+          → compact = 1–2 sentences
+          → summery = 1 paragraph
+          → bullet list = 3–5 bullet points
+  - If summary_level = "short" → generate only compact
+  - If summary_level = "detailed" → generate summary AND bullet list
